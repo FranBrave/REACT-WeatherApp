@@ -1,0 +1,70 @@
+body {
+  background-color: #457b9d;
+}
+
+.App {
+  text-align: center;
+
+}
+
+.header {
+justify-content: center;
+
+  &-container {
+  background-color: #045871;
+  }
+
+  &-title {
+    color: #c4a422;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    justify-content: center;
+  }
+
+}
+
+.input-group{
+  margin-top: 5rem;
+  width: 60%;
+}
+
+.card {
+  max-width: 60%;
+ 
+   &-title {
+    position: absolute;
+    padding: 20px;
+ }
+  &-date {
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 60px;
+
+  }
+  &-temp {
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 260px;
+    font-size: 60px;
+  }
+  &-desc {
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 320px;
+    text-transform: capitalize;
+    
+  }
+  &-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+
+}
+
+.forecast {
+  display: flex;
+  flex-direction: row;
+}
