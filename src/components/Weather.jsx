@@ -18,7 +18,7 @@ const Weather = () => {
             setLoading(true);
             setLocation(loc);
 
-            //weather
+            //Weather
 
             urlApi = urlApi + urlCity + loc;
             await fetch(urlApi).then((response) => {

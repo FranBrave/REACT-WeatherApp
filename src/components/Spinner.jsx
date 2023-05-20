@@ -1,15 +1,8 @@
-import React from 'react'
-import '../styles/Spinner.scss';
+import React from "react";
+import "../styles/Spinner.scss";
 
 const Spinner = () => {
-  return (
-    <div className='lds-ellipsis'>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    </div>
-  )
-}
+  return <div className="lds-ellipsis"></div>;
+};
 
-export default Spinner
+export default Spinner;
